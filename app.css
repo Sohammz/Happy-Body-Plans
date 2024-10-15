@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+    color: black;
+}
+
+.contanier{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* position: absolute; */
+    
+}
+   
+.contanier h1{
+    font-size: 80px;
+    top: 10%;
+    left: 06%;
+    position: absolute;
+    padding-bottom: 20px;
+    cursor: pointer;
+    line-height: 0.9;
+}
+.contanier h1:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.contanier p{
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    /* pointer-events: none; */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.contanier p:hover{
+  transform: scale(1.02);  
+}
+.qr{
+    
+    top: 57%;
+    left :19%;
+    position:absolute;
+}
+.qr img{
+    width: 220px;
+    height: 220px;
+}
+
+.hand{
+    
+    top: -11.5%;
+    left :49%;
+    position: fixed;
+    
+}
+.hand img{
+    width: 780px;
+    height: 780px;
+   
+}
